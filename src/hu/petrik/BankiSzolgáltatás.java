@@ -10,4 +10,5 @@ public class BankiSzolgáltatás {
     public Tulajdonos getTulajdonos() {
         return tulajdonos;
     }
+
 }

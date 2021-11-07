@@ -16,6 +16,11 @@ public abstract class Szamla extends BankiSzolgáltatás {
     }
 
     public abstract boolean kivesz(int osszeg);
+
+    public Kártya ujKartya(String kSzam){
+        return new Kártya(getTulajdonos(), kSzam, this);
+    }
+
 }
 
 
